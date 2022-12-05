@@ -1,0 +1,309 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+hr {
+	border: 0;
+	border-top: 3px solid red;
+}
+
+
+.container
+{
+  background-image: url(Public/RACIME.png);
+  background-size: cover;
+  height: 90vh;
+}
+
+/* DEBUT CSS MENU */
+.header 
+{
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  background-color:transparent;  
+}
+
+
+.logo
+{
+  width: 100px;
+  height: 100px;
+  margin: 2% ;  
+}
+
+.header nav
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header ul
+{
+  color: white;
+  justify-content: center;
+  word-spacing: 300px;
+  margin-left: 500px; 
+}
+
+.header li 
+{
+  display: inline-block; 
+  font-size: x-large;
+}
+
+.header li a
+{
+  color: white;
+}
+/* FIN CSS MENU */
+
+
+
+/* DEBUT CSS INTRO */
+
+.bouton
+{
+  word-spacing: 20px;
+}
+
+.bt
+{
+  
+  text-align: center ;
+  padding: 10px 20px; 
+  background: red; 
+  color: white;
+  border-radius: 3px;
+  justify-content: center;
+  border-right: 20px;
+}
+
+.pro
+{
+  color: white;
+  background-color: rgb(32, 32, 32);
+  border-color: grey;
+  border-radius: 3px;
+  justify-content: center;
+  text-align: center ;
+  padding: 10px 25px;
+}
+
+button a{
+  color: white;
+}
+
+
+button:hover 
+{
+  background: rgb(146, 5, 5); 
+}
+
+
+
+.intro
+{ 
+  margin-left: 3%;
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: left;
+  padding-top: 18%;
+  border-bottom: 5px;
+}
+
+.intro .texte .profil
+{
+  background: blue;
+}
+
+
+
+.intro h2
+{
+  font-family: 'Oswald', sans-serif;
+font-size: 60px;
+color: red;
+padding-bottom: 1%;
+}
+
+.intro .texteintro 
+{  
+  padding-bottom: 1.5%;
+  font-size: larger;
+  color: grey ;
+  text-align: justify;
+  margin-right:60%;
+}
+
+.intro p 
+{  
+  font-size:50px;
+  color: red;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/* DEBUT CSS PROFIL */
+
+.profil .competencet img
+{
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  padding-right: 50px;
+
+}
+
+.profil .competencet img:hover 
+{
+  background-color: gold;
+  opacity: 0.5;
+}
+
+
+ .profil {
+  padding-left: 3%;
+  width: 100%;
+  padding-top: 25px;
+  background-color: rgb(20, 20, 20);
+  color: rgb(155, 155, 155);
+  display: flex;
+  flex-direction: column;
+ }
+
+ .profil h2{
+  
+  border-bottom: 5px;
+}
+
+ .profil .competencet {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  background-color: rgb(20, 20, 20);
+  margin-top: 20px;
+  word-spacing: 1%;
+  margin-bottom:40px ;
+ }
+
+
+ 
+
+.profil .competences
+{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  background-color: rgb(20, 20, 20);
+  margin-top: 20px;
+  word-spacing: 1%;  
+  margin-bottom:40px ;
+
+}
+
+.profil  .img
+{
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  
+}
+
+
+.profil .img:hover 
+{
+  background-color: gold;
+  opacity: 0.5;
+}
+
+/* FIN CSS DU PROFIL */
+
+/* DEBUT CSS PROJET */
+
+.projet
+{
+  padding-left: 5%;
+  background-color: rgb(20, 20, 20);
+  color: rgb(155, 155, 155);
+  padding-bottom: 20px;
+}
+
+.projet img
+{
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  word-spacing: 50px;
+  padding-bottom: 30px;
+}
+
+.projet h2
+{
+  border-bottom: 100px;
+}
+
+/* DEBUT CSS FOOTER */
+.footer
+{
+  padding-left: 3%;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.reseaux
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+
+.reseaux img
+{
+  padding: 10%;
+}
+
+/* .footer ul
+{
+
+} */
+
+.footer li 
+{
+  padding-bottom: 40px;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer li a
+{
+  color: white;
+}
+
+
+/* FIN CSS FOOTER */
+
+
+
+
+
+::-webkit-scrollbar
+{
+  display: none;
+}
+ 
