@@ -145,17 +145,14 @@ padding-bottom: 1%;
 #profil 
 {
   padding-left: 3%;
-  padding-top: 25px;
+  padding-top: 5vh;
   background-color: rgb(20, 20, 20);
   color: rgb(155, 155, 155);
   display: flex;
   flex-direction: column;
 }
 
-#profil h3
-{
- border-bottom: 5px;
-}
+
 
 #profil .competencet 
  {
@@ -163,9 +160,9 @@ padding-bottom: 1%;
   flex-direction: row;
   overflow-x: scroll;
   background-color: rgb(20, 20, 20);
-  margin-top: 20px;
+  margin-top: 2vh;
   word-spacing: 1%;
-  margin-bottom:40px ;
+  margin-bottom:2vh ;
   width: 100%;
  }
  
@@ -177,9 +174,9 @@ padding-bottom: 1%;
   flex-direction: row;
   overflow-x: scroll;
   background-color: rgb(20, 20, 20);
-  margin-top: 20px;
+  margin-top: 2vh;
   word-spacing: 1%;  
-  margin-bottom:40px;
+  margin-bottom:2vh;
   width: 100%;
 
 }
@@ -188,7 +185,7 @@ padding-bottom: 1%;
 {
   border-radius: 5px;
   background-color: black;
-  padding: 20px;
+  padding: 2vh;
   
 }
 
@@ -216,11 +213,12 @@ padding-bottom: 1%;
   padding: 10px;
   border-radius: 5px;
   background-color: black;
+
 }
 
 #projet .lienprojet
 {
-word-spacing: 10px;
+  margin-right: 20vh;
 }
 
 #projet h3
@@ -257,12 +255,12 @@ word-spacing: 10px;
 {
   display: flex;
   flex-direction: row;
-  padding-left: 300px;
+  padding-left: 50vh;
 }
 
 .footer li 
 {
-  padding-right: 200px;
+  padding-right: 25vh;
   font-size: large;
 }
 
