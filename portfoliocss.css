@@ -12,12 +12,16 @@ hr {
 	border-top: 3px solid red;
 }
 
+body{
+  width: 100%;
+}
 
 .container
 {
   background-image: url(Public/RACIME.png);
   background-size: cover;
   height: 90vh;
+  width: 100%;
 }
 
 /* DEBUT CSS MENU */
@@ -115,21 +119,13 @@ button:hover
   display:flex;
   flex-direction: row;
   width: 100%;
-  align-items: left;
   padding-top: 18%;
   border-bottom: 5px;
 }
 
-.intro .texte .profil
+.intro h3
 {
-  background: blue;
-}
-
-
-
-.intro h2
-{
-  font-family: 'Oswald', sans-serif;
+font-family: 'Oswald', sans-serif;
 font-size: 60px;
 color: red;
 padding-bottom: 1%;
@@ -144,14 +140,6 @@ padding-bottom: 1%;
   margin-right:60%;
 }
 
-.intro p 
-{  
-  font-size:50px;
-  color: red;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
 
 /* DEBUT CSS PROFIL */
 
@@ -181,10 +169,10 @@ padding-bottom: 1%;
   flex-direction: column;
  }
 
- .profil h2{
-  
+ .profil h3
+ {
   border-bottom: 5px;
-}
+ }
 
  .profil .competencet {
   display: flex;
@@ -195,9 +183,6 @@ padding-bottom: 1%;
   word-spacing: 1%;
   margin-bottom:40px ;
  }
-
-
- 
 
 .profil .competences
 {
@@ -232,7 +217,7 @@ padding-bottom: 1%;
 
 .projet
 {
-  padding-left: 5%;
+  padding-left: 3%;
   background-color: rgb(20, 20, 20);
   color: rgb(155, 155, 155);
   padding-bottom: 20px;
@@ -240,14 +225,17 @@ padding-bottom: 1%;
 
 .projet img
 {
+  padding: 10px;
   border-radius: 5px;
   background-color: black;
-  padding: 20px;
-  word-spacing: 50px;
-  padding-bottom: 30px;
 }
 
-.projet h2
+.projet .lienprojet
+{
+word-spacing: 10px;
+}
+
+.projet h3
 {
   border-bottom: 100px;
 }
@@ -258,7 +246,7 @@ padding-bottom: 1%;
   padding-left: 3%;
   width: 100%;
   background-color: rgb(20, 20, 20);
-  height: 40vh;
+  height: 30vh;
   display: flex;
   align-items: center;
   color: white;
@@ -269,7 +257,7 @@ padding-bottom: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3%;
+  padding-left: 3%;
 }
 
 .reseaux img
@@ -277,17 +265,17 @@ padding-bottom: 1%;
   padding: 10%;
 }
 
-/* .footer ul
+.footer ul
 {
-
-} */
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+}
 
 .footer li 
 {
-  padding-bottom: 40px;
+  padding-right: 200px;
   font-size: large;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer li a
@@ -295,6 +283,10 @@ padding-bottom: 1%;
   color: white;
 }
 
+.footer .lienfooter
+{
+  justify-content: center;
+}
 
 /* FIN CSS FOOTER */
 
