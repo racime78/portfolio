@@ -53,7 +53,6 @@ body{
 {
   color: white;
   justify-content: center;
-  word-spacing: 300px;
   margin-left: 500px; 
 }
 
@@ -61,6 +60,8 @@ body{
 {
   display: inline-block; 
   font-size: x-large;
+  padding-right: 300px;
+
 }
 
 .header li a
@@ -122,7 +123,7 @@ button:hover
   border-bottom: 5px;
 }
 
-.intro h3
+.intro h2
 {
 font-family: 'Oswald', sans-serif;
 font-size: 60px;
@@ -142,37 +143,23 @@ padding-bottom: 1%;
 
 /* DEBUT CSS PROFIL */
 
-.profil .competencet img
+#profil 
 {
-  border-radius: 5px;
-  background-color: black;
-  padding: 20px;
-  padding-right: 50px;
-
-}
-
-.profil .competencet img:hover 
-{
-  background-color: gold;
-  opacity: 0.5;
-}
-
-
- .profil {
   padding-left: 3%;
   padding-top: 25px;
   background-color: rgb(20, 20, 20);
   color: rgb(155, 155, 155);
   display: flex;
   flex-direction: column;
- }
+}
 
- .profil h3
+#profil h3
+{
+ border-bottom: 5px;
+}
+
+#profil .competencet 
  {
-  border-bottom: 5px;
- }
-
- .profil .competencet {
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
@@ -182,8 +169,10 @@ padding-bottom: 1%;
   margin-bottom:40px ;
   width: 100%;
  }
+ 
 
-.profil .competences
+
+#profil .competences
 {
   display: flex;
   flex-direction: row;
@@ -196,7 +185,7 @@ padding-bottom: 1%;
 
 }
 
-.profil  .img
+#profil  .img
 {
   border-radius: 5px;
   background-color: black;
@@ -205,7 +194,7 @@ padding-bottom: 1%;
 }
 
 
-.profil .img:hover 
+#profil .img:hover 
 {
   background-color: gold;
   opacity: 0.5;
@@ -215,7 +204,7 @@ padding-bottom: 1%;
 
 /* DEBUT CSS PROJET */
 
-.projet
+#projet
 {
   padding-left: 3%;
   background-color: rgb(20, 20, 20);
@@ -230,12 +219,12 @@ padding-bottom: 1%;
   background-color: black;
 }
 
-.projet .lienprojet
+#projet .lienprojet
 {
 word-spacing: 10px;
 }
 
-.projet h3
+#projet h3
 {
   border-bottom: 100px;
 }
