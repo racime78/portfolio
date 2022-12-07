@@ -12,9 +12,7 @@ hr {
 	border-top: 3px solid red;
 }
 
-body{
-  width: 100%;
-}
+
 
 .container
 {
@@ -37,9 +35,10 @@ body{
 
 .logo
 {
-  width: 100px;
-  height: 100px;
-  margin: 2% ;  
+  width: 10vh;
+  height: 10vh;
+  margin: 2% ; 
+  margin-right: 3%; 
 }
 
 .header nav
@@ -47,21 +46,22 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  width: 33%;
 }
 
 .header ul
 {
   color: white;
   justify-content: center;
-  margin-left: 500px; 
+  margin-left: 5%; 
 }
 
 .header li 
 {
   display: inline-block; 
   font-size: x-large;
-  padding-right: 300px;
-
+margin-right: 10vh;
 }
 
 .header li a
@@ -76,19 +76,19 @@ body{
 
 .bouton
 {
-  word-spacing: 20px;
+  word-spacing: 2vh;
 }
 
 .bt
 {
   
   text-align: center ;
-  padding: 10px 20px; 
+  padding: 1vh 2vh; 
   background: red; 
   color: white;
   border-radius: 3px;
   justify-content: center;
-  border-right: 20px;
+  margin-right: 1vh;
 }
 
 .pro
@@ -99,7 +99,7 @@ body{
   border-radius: 3px;
   justify-content: center;
   text-align: center ;
-  padding: 10px 25px;
+  padding: 1vh 2vh;
 }
 
 button a{
@@ -120,13 +120,12 @@ button:hover
   display:flex;
   flex-direction: row;
   padding-top: 18%;
-  border-bottom: 5px;
 }
 
 .intro h2
 {
 font-family: 'Oswald', sans-serif;
-font-size: 60px;
+font-size: 7vh;
 color: red;
 padding-bottom: 1%;
 }
