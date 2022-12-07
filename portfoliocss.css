@@ -60,7 +60,7 @@ hr {
 .header li 
 {
   display: inline-block; 
-  font-size: x-large;
+  font-size: large;
 margin-right: 10vh;
 }
 
@@ -202,10 +202,12 @@ padding-bottom: 1%;
 
 #projet
 {
+  padding-top: 20px;
   padding-left: 3%;
   background-color: rgb(20, 20, 20);
   color: rgb(155, 155, 155);
   padding-bottom: 20px;
+
 }
 
 .projet img
@@ -218,13 +220,14 @@ padding-bottom: 1%;
 
 #projet .lienprojet
 {
-  margin-right: 20vh;
+  background-color: black;
+  margin-top: 20px;
+  word-spacing: 10%; 
+
+
 }
 
-#projet h3
-{
-  border-bottom: 100px;
-}
+
 
 /* DEBUT CSS FOOTER */
 .footer
