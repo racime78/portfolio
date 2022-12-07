@@ -207,7 +207,6 @@ padding-bottom: 1%;
   background-color: rgb(20, 20, 20);
   color: rgb(155, 155, 155);
   padding-bottom: 20px;
-
 }
 
 .projet img
@@ -215,16 +214,12 @@ padding-bottom: 1%;
   padding: 10px;
   border-radius: 5px;
   background-color: black;
-
 }
 
 #projet .lienprojet
 {
   background-color: black;
   margin-top: 20px;
-  word-spacing: 10%; 
-
-
 }
 
 
