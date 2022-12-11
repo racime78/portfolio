@@ -209,19 +209,21 @@ padding-bottom: 1%;
   padding-bottom: 20px;
 }
 
-.projet img
+#projet img
 {
-  padding: 10px;
+  padding: 1vh;
   border-radius: 5px;
   background-color: black;
+  padding-right: 10vh;
 }
 
 #projet .lienprojet
 {
   background-color: black;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
+/* FIN CSS PROJET */
 
 
 /* DEBUT CSS FOOTER */
