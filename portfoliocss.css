@@ -212,7 +212,6 @@ padding-bottom: 1%;
 #projet img
 {
   margin: 1vh;
-
   padding: 2vh;
   background-color: black;
   border-radius: 5px;
@@ -240,7 +239,6 @@ padding-bottom: 1%;
 .footer
 {
   padding-left: 3%;
-
   background-color: rgb(20, 20, 20);
   height: 30vh;
   display: flex;
