@@ -175,16 +175,15 @@ padding-bottom: 1%;
   overflow-x: scroll;
   background-color: rgb(20, 20, 20);
   margin-top: 2vh;
-  word-spacing: 1%;  
   margin-bottom:2vh;
   width: 100%;
-
 }
 
 #profil  .img
 {
   border-radius: 5px;
   background-color: black;
+  margin: 1vh;
   padding: 2vh;
   
 }
@@ -193,7 +192,8 @@ padding-bottom: 1%;
 #profil .img:hover 
 {
   background-color: gold;
-  opacity: 0.5;
+  transition: 0.5s;
+  -webkit-transform:scale(1.25);
 }
 
 /* FIN CSS DU PROFIL */
@@ -211,15 +211,25 @@ padding-bottom: 1%;
 
 #projet img
 {
+  margin: 1vh;
+
+  padding: 2vh;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#projet img:hover
+{
+  background-color: gold;
   padding: 1vh;
   border-radius: 5px;
-  background-color: black;
-  padding-right: 10vh;
+  transition: 0.5s;
+  -webkit-transform:scale(1.25);
 }
+
 
 #projet .lienprojet
 {
-  background-color: black;
   margin-top: 15px;
 }
 
