@@ -145,7 +145,6 @@ padding-bottom: 1%;
 #profil 
 {
   padding-left: 3%;
-  padding-top: 5vh;
   background-color: rgb(20, 20, 20);
   color: rgb(155, 155, 155);
   display: flex;
@@ -179,6 +178,17 @@ padding-bottom: 1%;
   width: 100%;
 }
 
+#profil .hobby
+{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  background-color: rgb(20, 20, 20);
+  margin-top: 2vh;
+  margin-bottom:2vh;
+  width: 100%;
+}
+
 #profil  .img
 {
   border-radius: 5px;
@@ -202,15 +212,16 @@ padding-bottom: 1%;
 
 #projet
 {
-  padding-top: 20px;
+  padding-top: 3vh;
   padding-left: 3%;
   background-color: rgb(20, 20, 20);
   color: rgb(155, 155, 155);
-  padding-bottom: 20px;
+  padding-bottom: 1vh;
 }
 
 #projet img
 {
+  margin-top: 30px;
   margin: 1vh;
   padding: 2vh;
   background-color: black;
@@ -226,11 +237,19 @@ padding-bottom: 1%;
   -webkit-transform:scale(1.25);
 }
 
-
-#projet .lienprojet
+#projet .mesprojets
 {
-  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  background-color: rgb(20, 20, 20);
+  margin-top: 2vh;
+  margin-bottom:2vh;
+  width: 100%;
 }
+
+
+
 
 /* FIN CSS PROJET */
 
